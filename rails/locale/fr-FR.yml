@@ -170,11 +170,21 @@ fr-FR:
       decimal_units:
         format: "%n %u"
         units:
-          billion: milliard
-          million: million
-          quadrillion: million de milliards
-          thousand: millier
-          trillion: billion
+          billion: 
+            one: milliard
+            other: milliards
+          million: 
+            one: million
+            other: millions
+          quadrillion: 
+            one: million de milliards
+            other: millions de milliards
+          thousand: 
+            one: millier
+            other: milliers
+          trillion: 
+            one: billion
+            other: billions
           unit: ''
       format:
         delimiter: ''
